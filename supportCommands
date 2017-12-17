@@ -1,0 +1,15 @@
+rails g resource question email:string body:text
+
+rake db:migrate
+
+rails g mailer qa_mailer notify_question_author
+
+rake test
+
+rake assets:precompile
+
+RAILS_ENV=production rake assets:precompile
+
+rails g controller account sign_in sign_up
+
+rails g model user email:string password:string

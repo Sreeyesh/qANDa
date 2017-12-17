@@ -1,0 +1,26 @@
+// Place all the styles related to the account controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.login-box {
+	.container {
+	    width: 300px;
+	    margin-top: 15px;
+	    border: thin solid #ddd;
+	    background-color: #fff;
+	    border-radius:10px;
+
+	    .alert{
+	    	margin-top:5px;
+	    }
+
+	    button.btn.btn-primary {
+		    margin-top: -5px;
+		    margin-bottom: 5px;
+		}
+	}
+}
+
+body {
+    background-color: #eee;
+}

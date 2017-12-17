@@ -1,0 +1,6 @@
+<% if @user_not_exist %>
+<div class="container">
+	<div class="alert alert-danger text-center">User not exist for entered credentials.</div>
+</div>
+<% end %>
+<%= render "account/sign_in_form" %>

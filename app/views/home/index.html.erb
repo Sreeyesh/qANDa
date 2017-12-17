@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="well well-lg">
+    <h4> Then universe is totality of everything that exists, has existed, or ever will exist.</h4>
+    <p> This Q&A site is dedicated to questions about anything under universe. </p>
+  </div>
+</div>
+
+<!-- media objects -->
+<div class="container">
+  <div class="boxes">
+    <% @questions.each do |question| %>
+    <div class="media" data-target="<%= question_path(question) %>">
+      <div class="media-left">
+        <img src="<%= question.gravatar %>" class="media-object" style="width:60px">
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading"><%= question.email %> asked:</h4>
+        <div class="time"><small><%= time_ago_in_words question.created_at %> ago</small></div>
+        <p><%= question.body %></p>
+        <a href="<%= question_path(question) %>" class="btn btn-success btn-xs" role="button">View Answers</a>
+      </div>
+    </div>
+    <% end %>
+  </div>
+
+  <% if @questions.empty? %>
+    <div class="alert alert-info">Nothing yet here, be the first to ask.</div>
+  <% end %>
+</div>
