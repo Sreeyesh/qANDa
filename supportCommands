@@ -13,3 +13,16 @@ RAILS_ENV=production rake assets:precompile
 rails g controller account sign_in sign_up
 
 rails g model user email:string password:string
+
+cp db/development.sqlite3 db/production.sqlite3
+
+rake db:drop:all
+rake db:create:all
+rake db:migrate
+
+=========================git=======================
+git init
+
+git add .
+
+git commit -am "Initial commit"

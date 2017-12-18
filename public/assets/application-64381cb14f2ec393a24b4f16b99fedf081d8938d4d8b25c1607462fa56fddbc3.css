@@ -1,0 +1,60 @@
+/* line 6, /home/sreeyesh/workspace/qANDa/app/assets/stylesheets/account.scss */
+.login-box .container {
+  width: 300px;
+  margin-top: 15px;
+  border: thin solid #ddd;
+  background-color: #fff;
+  border-radius: 10px;
+}
+/* line 13, /home/sreeyesh/workspace/qANDa/app/assets/stylesheets/account.scss */
+.login-box .container .alert {
+  margin-top: 5px;
+}
+/* line 17, /home/sreeyesh/workspace/qANDa/app/assets/stylesheets/account.scss */
+.login-box .container button.btn.btn-primary {
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+/* line 24, /home/sreeyesh/workspace/qANDa/app/assets/stylesheets/account.scss */
+body {
+  background-color: #eee;
+}
+/* line 5, /home/sreeyesh/workspace/qANDa/app/assets/stylesheets/home.scss */
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  padding-right: 20px;
+}
+/* line 10, /home/sreeyesh/workspace/qANDa/app/assets/stylesheets/home.scss */
+.navbar .navbar-text {
+  margin-top: 0px;
+}
+
+/* line 16, /home/sreeyesh/workspace/qANDa/app/assets/stylesheets/home.scss */
+.boxes .media {
+  padding: 10px;
+}
+/* line 20, /home/sreeyesh/workspace/qANDa/app/assets/stylesheets/home.scss */
+.boxes .media:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+  border: thin solid #ddd;
+  border-radius: 5px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

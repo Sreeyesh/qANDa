@@ -13,9 +13,9 @@
 ActiveRecord::Schema.define(version: 20171217064402) do
 
   create_table "answers", force: :cascade do |t|
-    t.integer "question_id"
-    t.string "email"
-    t.text "body"
+    t.integer "question_id", null: false
+    t.string "email", null: false
+    t.text "body", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
