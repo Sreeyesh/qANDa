@@ -55,8 +55,8 @@ group :development do
 end
 
 group :production do
-  gem 'sqlite3'
-  #gem 'pg'
+  #gem 'sqlite3'
+  gem 'pg'
 end
 
 gem 'sucker_punch'
